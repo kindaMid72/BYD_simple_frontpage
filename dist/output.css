@@ -554,66 +554,16 @@ video {
   display: none;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.inline {
-  display: inline;
-}
-
-.size-2 {
-  width: 0.5rem;
-  height: 0.5rem;
-}
-
-.size-3 {
-  width: 0.75rem;
-  height: 0.75rem;
-}
-
-.size-4 {
-  width: 1rem;
-  height: 1rem;
-}
-
-.size-\[100\%\] {
-  width: 100%;
-  height: 100%;
-}
-
-.size-\[vh\] {
-  width: vh;
-  height: vh;
-}
-
-.size-\[100vh\] {
-  width: 100vh;
-  height: 100vh;
-}
-
-.size-\[100vph\] {
-  width: 100vph;
-  height: 100vph;
-}
-
-.size-\[100vp\] {
-  width: 100vp;
-  height: 100vp;
-}
-
-.size-\[100\] {
-  width: 100;
-  height: 100;
-}
-
-.size-\[\] {
-  width: ;
-  height: ;
+.relative {
+  position: relative;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-screen {
@@ -629,26 +579,6 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
 
-.bg-\[src\] {
-  background-color: src;
-}
-
-.bg-\[src\(\'\'\)\] {
-  background-color: src('');
-}
-
-.bg-\[src\(\'\.\/assets\/byd-background\.avif\'\)\] {
-  background-color: src('./assets/byd-background.avif');
-}
-
-.bg-\[url\(\'\.\/assets\/byd-background\.avif\'\)\] {
-  background-image: url('./assets/byd-background.avif');
-}
-
-.bg-\[url\(\'\/assets\/byd-background\.avif\'\)\] {
-  background-image: url('/assets/byd-background.avif');
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -657,48 +587,34 @@ video {
   background-position: center;
 }
 
-.\[\&\>li\]\:mr-4>li {
-  margin-right: 1rem;
+.text-\[2em\] {
+  font-size: 2em;
 }
 
-.\[\&\>li\]\:mr-5>li {
-  margin-right: 1.25rem;
+.text-\[1em\] {
+  font-size: 1em;
 }
 
-.\[\&\>li\]\:mr-6>li {
-  margin-right: 1.5rem;
+.text-\[1\.4em\] {
+  font-size: 1.4em;
 }
 
 .\[\&\>li\]\:inline-block>li {
   display: inline-block;
 }
 
-.\[\&\>li\]\:inline>li {
-  display: inline;
+.\[\&\>li\]\:text-\[1\.5em\]>li {
+  font-size: 1.5em;
 }
 
-.\[\&\>li\]\:text-\[2em\]>li {
-  font-size: 2em;
+.\[\&\>li\]\:text-\[1\.57em\]>li {
+  font-size: 1.57em;
 }
 
-.\[\&\>li\]\:text-\[15px\]>li {
-  font-size: 15px;
+.\[\&\>li\]\:text-\[1\.9em\]>li {
+  font-size: 1.9em;
 }
 
-.\[\&\>li\]\:text-blue-500>li {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
-}
-
-.\[\&\>li\]\:text-\[\]>li {
-  color: ;
-}
-
-.\[\&\>li\]\:hover\:text-blue-700:hover>li {
-  --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity, 1));
-}
-
-.\[\&\>ul\]\:inline>ul {
-  display: inline;
+.\[\&\>li\]\:text-\[1\.57m\]>li {
+  color: 1.57m;
 }
